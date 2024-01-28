@@ -1,6 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 // fonts
-$primary-font: 'Roboto', sans-serif;
-$secondary-font: 'Orbitron', sans-serif;
+$primary-font: "Roboto", sans-serif;
+$secondary-font: "Orbitron", sans-serif;
+
+// theme colors
+$primary: #18b6f4;
+$secondary: #00ffcc;
+$error: #fe0000;
+$info: #f6e81c;
+
+// color palette
+$colors: (
+  "black": black,
+  "white": white,
+  "primary": $primary,
+  "secondary": $secondary,
+  "error": $error,
+  "info": $info,
+  "yellow": #ffcc00,
+  "purple": #cc00ff,
+  "purple-dark": #33135c,
+  "orange": #ff9900,
+  "green": #66ff66,
+  "pink": #ff33cc,
+);
+
+// base variables
+$base-padding: 0.2rem;
+$base-margin: 0.25rem;
+$base-border-thickness: 1px;
+$base-border-color: #ffffff;  // White
+$base-box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+$base-border-radius: 4px;
+$base-box-padding: 15px;
+
+// font-sizes
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
