@@ -28,10 +28,17 @@ $colors: (
 );
 
 // base variables
-$base-padding: 0.75rem;
-$base-margin: 0.75rem;
+$base-padding: 0.2rem;
+$base-margin: 0.25rem;
 $base-border-thickness: 1px;
-$base-border-color: #ccc;
-$base-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+$base-border-color: #ffffff;  // White
+$base-box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 $base-border-radius: 4px;
-$base-box-padding: 1em;
+$base-box-padding: 15px;
+
+// font-sizes
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
