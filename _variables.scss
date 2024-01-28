@@ -10,3 +10,19 @@ $primary: #18b6f4;
 $secondary: #00ffcc;
 $error: #fe0000;
 $info: #f6e81c;
+
+// color palette
+$colors: (
+  "black": black,
+  "white": white,
+  "primary": $primary,
+  "secondary": $secondary,
+  "error": $error,
+  "info": $info,
+  "yellow": #ffcc00,
+  "purple": #cc00ff,
+  "purple-dark": #33135c,
+  "orange": #ff9900,
+  "green": #66ff66,
+  "pink": #ff33cc,
+);
