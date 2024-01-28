@@ -1,0 +1,22 @@
+{
+  "name": "etherglow-ui",
+  "version": "1.0.0",
+  "description": "[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/your-repo/blob/main/LICENSE)",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/_index.scss dist/style.css --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alperenustun/etherglow-ui.git"
+  },
+  "author": "Alperen Üstün",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alperenustun/etherglow-ui/issues"
+  },
+  "homepage": "https://github.com/alperenustun/etherglow-ui#readme",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}
