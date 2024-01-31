@@ -2,6 +2,23 @@
   "name": "etherglow-ui",
   "version": "1.0.1",
   "description": "Etherglow UI is a collection of components built with SASS, aiming to simplify the process of creating stylish and responsive user interfaces.",
+  "keywords": [
+    "etherglow",
+    "ui",
+    "sass",
+    "stylesheet",
+    "css",
+    "components",
+    "design",
+    "web",
+    "interface",
+    "fixed",
+    "stylish",
+    "responsive",
+    "modern",
+    "library",
+    "frontend"
+  ],
   "main": "dist/style.css",
   "scripts": {
     "build": "sass src/_index.scss dist/style.css --style=compressed"
